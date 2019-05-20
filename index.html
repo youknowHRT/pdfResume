@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        .icon {
+        width: 2em; height: 2em;
+        vertical-align: -0.15em;
+        fill: currentColor;
+        overflow: hidden;
+        margin-right: 10px;
+        margin-bottom: -5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="container">
+            <div class="sideBar">
+                <div class="portrait">
+                    <img src="./avator.jpg" alt="avator">
+                </div>
+                <div class="my_info">
+                    <h1>黄俊彦</h1>
+                    <hr width="" color="#1A7A6E" size="1px">
+                    <p>
+                        <span>
+                            满腔热血 <br>
+                            扬帆转航 <br>
+                        </span>
+                        <strong>初级前端工程师</strong>
+                    </p>
+                    <hr color="#4BB09F"> 
+                </div>
+                <div class="skillBar">
+                    <ul>
+                        <li>
+                            <p>HTML</p>
+                            <p> <i style="width:75%"></i> </p>
+                        </li>
+                        <li>
+                            <p>CSS</p>
+                            <p> <i style="width:65%"></i> </p>
+                        </li>
+                        <li>
+                            <p>JavaScript</p>
+                            <p> <i style="width:60%"></i> </p>
+                        </li>
+                        <li>
+                            <p>Vue.js</p>
+                            <p> <i style="width:50%"></i> </p>
+                        </li>
+                        <li>
+                            <p>TypeScript</p>
+                            <p> <i style="width:40%"></i> </p>
+                        </li>
+                        <!-- <li>
+                            <p>Node.js</p>
+                            <p> <i style="width:75%"></i> </p>
+                        </li> -->
+                    </ul>
+                </div>
+                <div class="contact">
+                    <ul>
+                        <li>
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-youxiang1"></use>
+                            </svg>
+                            <span>15921363438@163.com</span>
+                        </li>
+                        <li>
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-weixin1"></use>
+                            </svg>
+                            <span>youknowHRT</span>
+                        </li>
+                        <li>
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-shouji"></use>
+                            </svg>
+                            <span>15921363438</span>
+                        </li>                      
+                        <li>
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-zuobiao"></use>
+                            </svg>
+                            <span>上海</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main">
+                <div class="portfolio">
+                    <span>
+                        <h3>项目经历</h3>
+                        <a href="https://youknowhrt.github.io/CV20190520/dist/index.html">在线简历</a></span>
+                    
+                    <div>
+                        <ul>
+                            <li>
+                                <span class="portfolio_name">CNode社区</span>
+                                <span class="portfolio_check">
+                                    <a href="">Vue</a>
+                                    <a href="">Axios</a>
+                                </span>
+                            </li>
+                            <li>使用Vue写的CNode社区网站，基本实现了该站的阅读浏览等简单功能。
+                                    主要学习了解了Vue组件的注册使用，router跳转及监测，
+                                    过滤器，父子组件通信，计算属性等技术。
+                                    同时也学习了如何用Axios插件来异步获取数据。</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>
+                                <span class="portfolio_name">有赞商城</span>
+                                <span class="portfolio_check">
+                                    <a href="">Vue</a>
+                                    <a href="">Axios</a>
+                                    <a href="">Vuex</a>
+                                </span>
+                            </li>
+                            <li>
+                                使用Vue来构建有赞商城。由RAP2作为接口管理工具，动态模拟数据。
+                                项目可分拆分为六个页面，分别为首页、目录分类页、商品搜索列表页、
+                                商品详情页、购物车页面、个人中心地址管理页面。
+                                对路由配置，组件通信有进一步的了解。并初步接触和使用了Vuex。
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>
+                                <span class="portfolio_name">炫彩画板</span>
+                                <span class="portfolio_check">
+                                    <a href="">Canvas</a>
+                                </span>
+                            </li>
+                            <li>简单实现了一个Canvas画板，并且适配了移动端。
+                                    功能包括涂鸦，橡皮擦，清屏，下载以及多种颜色的切换等。
+                                    有稍微用到一点jQuery来帮助简单获取DOM节点。
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="skillPart">
+                    <h3>技能树</h3>
+                    <ul>
+                        <li>
+                            掌握常用HTML标签，理解语义化标签，DOM结构和操作，熟悉标准DOM事件流。
+                            掌握CSS核心概念，如
+                            <span class='highlight emphasize'>块级元素</span>和
+                            <span class='highlight emphasize'>行内元素</span>、
+                            <span class='highlight emphasize'>盒模型</span>、
+                            <span class='highlight emphasize'>文档流</span>、
+                            <span class='highlight emphasize'>浮动定位</span>、
+                            <span class='highlight emphasize'>Flex布局</span>。拥有
+                            <span class='highlight emphasize'>像素级</span> 还原设计稿的能力。具有
+                            <span class='highlight emphasize'>平均水准之上</span> 的审美，追求设计的优雅。
+                        </li>
+                        <li>
+                            熟练掌握原生Javascript，掌握重要概念如：
+                            <span class='highlight emphasize'>原型</span>，
+                            <span class='highlight emphasize'>闭包</span>，
+                            <span class='highlight emphasize'>作用域链</span>，
+                            <span class='highlight emphasize'>面向对象</span>，
+                            <span class='highlight emphasize'>异步流程控制</span>等。
+                        </li>
+                        <li>
+                            熟悉Vue框架及相关流行库的使用，<span class='highlight important'>理解重要概念</span>如：生命周期，异步更新，性能优化，虚拟DOM，数据响应式等。
+                            能够使用 Vue 全家桶开发项目。
+                        </li>
+                        <li>
+                            熟悉<span class='highlight emphasize'>HTTP协议</span>及浏览器<span class='highlight emphasize'>渲染原理</span>。
+                        </li>
+                        <li>
+                            了解<span class='highlight emphasize'>CMD & AMD</span>机制以及<span class='highlight emphasize'>Webpack</span>基本配置。
+                        </li>
+                        
+                        <li>
+                            追求风格优雅，整洁的代码。 <span class='highlight emphasize'>无分号，空格缩进</span>拥护者。
+                        </li>
+                    </ul>
+                </div>
+                <div class="message">
+                    <h3>关于我</h3>
+                    <p>
+                        <span class="highlight important">教育背景:</span>上海第二工业大学 英语专业 <strong>本科</strong>
+                    </p>
+                    <p>
+                        <span class="highlight important">工作经历:</span>之前从事广告媒介工作，决定转行。目前自学前端技术中
+                    </p>
+                    <p>
+                        <span class="highlight important">求职意向:</span> <strong>前端开发</strong>
+                    </p>
+                    <p>在独立项目开发过程中迸发<strong>高昂的学习热情，拥抱新技术。</strong> <br>
+                    <strong>Stay hungry, Stay foolish.</strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="//at.alicdn.com/t/font_1197655_j71nwc8a7pb.js"></script>
+</html>

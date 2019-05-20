@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+ul,li{
+    list-style: none;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white
+}
+.container{
+    height: 1200px;
+    width: 880px;
+    display: flex;
+
+}
+/* 侧边栏 */
+.sideBar{
+    width: 320px;
+    height: inherit;
+    background :#5DC3B1;
+    color: #F0EDE7;
+    display: flex;
+    flex-direction: column;
+
+}
+.portrait{
+    height: 160px;
+    width: 160px;
+    margin: 50px auto 10px auto;
+    border-radius: 50%;
+}
+.portrait img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.my_info{
+    margin: 0 auto;
+    width: 215px;
+    text-align: center;
+}
+.my_info p{
+    color: #16756A;
+    margin: 5px 0
+}
+.my_info p span{
+    font-size: 14px
+}
+.skillBar{
+    width:inherit;
+    height: 300px;
+}
+.skillBar ul{
+    padding: 30px 55px 0px 55px;;
+}
+.skillBar ul>li{
+    display: flex;
+    justify-content: space-between;
+    line-height: 15px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin: 15px auto;
+    font-weight: 600
+}
+.skillBar ul>li>p:first-child{
+    width: 75px;
+    text-align: right;
+    margin-right: 7px;
+}
+.skillBar ul>li>p:nth-child(2){
+    background:#3EB79F;
+    width: 135px;
+    border-radius: 15px;
+}
+.skillBar i{
+    display: block;
+    height: 15px;
+    background-color: #F1EEE8;
+    border-radius: 15px;
+
+}
+.contact{
+    width: inherit;
+    height: 300px;
+    font-size: 15px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin-top: 420px
+}
+.contact ul >li{
+    margin:10px auto;
+}
+
+/* 主体部分 */
+.main{
+    width: 560px;
+    height: inherit;
+    background: #F1EEE8;
+    padding: 50px 50px 50px 33px;
+    color: #969594;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column
+}
+.portfolio{
+    margin-bottom: 20px;
+}
+.portfolio >span{
+    display: flex;
+    justify-content: space-between
+}
+.portfolio >span >a{
+    font-size: 10px;
+    margin-top: 15px;
+    color: #57C1AE;
+    text-decoration: underline #57C1AE
+}
+ h3{
+    color: #6E6D6D;
+    font-size: 30px;
+}
+.portfolio ul>li:first-child{
+    color: #57C1AE;
+    font-weight: 800;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 22px;
+    margin-bottom: 10px;
+    margin-top: 10px
+}
+.portfolio ul>li>span>a{
+    text-decoration: none;
+    color: #F1EEE8;
+    background-color: #57C1AE;
+    font-size: 14px;
+    padding: 3px 5px;
+    font-weight: 600;
+    /* margin-left: 7px */
+}
+
+.skillPart ul>li {
+    margin:10px 0;
+}
+.highlight.emphasize {
+    color: #57C1AE;
+}
+  
+.highlight.important {
+    color: #225d52;
+  }
+
+.message p{
+    margin: 5px 0;
+}
+.message :last-child{
+    width: 100%;
+    /* text-align: center; */
+    margin-top: 20px
+}
